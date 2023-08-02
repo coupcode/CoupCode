@@ -5,10 +5,11 @@ module.exports = {
   ],
   theme: {
     extend: {
-      color: {
+      colors: {
         brownClr: "rgb(213,145,80)",
         blackClr: "#000",
-        whiteClr: "#fff"
+        whiteClr: "#fff",
+        darkBlue: "#000c66"
       }
     },
   },
