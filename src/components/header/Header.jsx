@@ -5,7 +5,7 @@ import { BiSearch } from 'react-icons/bi'
 
 const Header = () => {
   return (
-    <div className="w-full min-h-[50px] mx-auto py-2 bg-whiteClr">
+    <div className="w-full min-h-[50px] fixed top-0 left-0 mx-auto py-2 bg-whiteClr shadow-lg z-10">
         <div className="w-[65%] mx-auto flex justify-between items-center">
             <div className="flex justify-start items-center">
                 <div className="w-[50px] h-[50px]">

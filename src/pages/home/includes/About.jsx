@@ -15,8 +15,8 @@ const About = () => {
                 </p>
             </div>
             <div className="w-full pb-4 flex justify-between items-center">
-              <div className="w-[280px] mr-2">
-                <div className="w-[280px] mb-2">
+              <div className="w-[300px]  mr-2">
+                <div className="w-[300px] h-[200px] mb-2">
                   <img src={img1} alt="About Image" className="w-full h-full object-cover" />
                 </div>
                 <h2 className="pb-2 text-lg font-bold capitalize">short & good plan</h2>
@@ -26,8 +26,8 @@ const About = () => {
                 </p>
                 <small className="text-xs font-bold uppercase text-brownClr">read more</small>
               </div>
-              <div className="w-[280px] mr-2">
-                <div className="w-[280px] mb-2">
+              <div className="w-[300px] mr-2">
+                <div className="w-[300px] h-[200px] mb-2">
                   <img src={img2} alt="About Image" className="w-full h-full object-cover" />
                 </div>
                 <h2 className="pb-2 text-lg font-bold capitalize">short & good plan</h2>
@@ -37,8 +37,8 @@ const About = () => {
                 </p>
                 <small className="text-xs font-bold uppercase text-brownClr">read more</small>
               </div>
-              <div className="w-[280px] mr-3">
-                <div className="w-[280px] mb-2">
+              <div className="w-[300px] mr-3">
+                <div className="w-[300px] h-[200px] mb-2">
                   <img src={img3} alt="About Image" className="w-full h-full object-cover" />
                 </div>
                 <h2 className="pb-2 text-lg font-bold capitalize">short & good plan</h2>
