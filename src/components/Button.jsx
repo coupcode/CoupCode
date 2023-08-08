@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Button = () => {
+const Button = ({data}) => {
   return (
     <div>
-        <button className="py-3 px-6 bg-brownClr text-whiteClr text-xs font-semibold uppercase shadow hover:scale-95 hover:shadow-md transition-all">Learn more</button>
+        <button className="md:py-3 md:px-6 xs:py-2 py-2 xs:px-3 px-2 bg-brownClr text-whiteClr md:text-xs xs:text-[10px] text-[6px] font-semibold uppercase shadow hover:scale-95 hover:shadow-md transition-all">{data}</button>
     </div>
   )
 }

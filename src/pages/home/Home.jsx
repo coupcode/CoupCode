@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Header from '../../components/header/Header'
 import HeroPage from './includes/HeroPage'
 import About from './includes/About'
@@ -7,11 +7,14 @@ import Work from './includes/Work'
 import Brand from './includes/Brand'
 import Testimonial from './includes/Testimonial'
 import Footer from '../../components/footer/Footer'
+import ResponsiveNav from '../../components/responsive-navbar/ResponsiveNav'
 
 const Home = () => {
+  const [isNav, setIsNav] = useState(false)
   return (
-    <div className="w-full">
-        <Header />
+    <div className="">
+      { isNav && <ResponsiveNav setNav={()=>setIsNav(!isNav)} /> }
+        <Header setNav={()=>setIsNav(!isNav)}/>
         <HeroPage />
         <About />
         <Services />
