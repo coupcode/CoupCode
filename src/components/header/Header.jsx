@@ -15,7 +15,7 @@ const Header = ({setNav}) => {
                 <div className="md:w-[50px] md:h-[50px] sm:w-[30px] sm:h-[30px] w-[20px] h-[20px]">
                     <img src={Logo} alt="Logo" className="w-full h-full object-cover" />
                 </div>
-                <div className="text-blackClr md:text-xl text-lg font-bold uppercase">CoupCode</div>
+                <div className="text-blackClr md:text-xl text-base font-bold uppercase">CoupCode</div>
             </div>
             <div className="flex justify-center items-center mr-[5px]">
                 <div className="lg:flex justify-center items-center mr-2 text-sm uppercase font-semibold hidden">
