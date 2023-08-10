@@ -11,76 +11,76 @@ const Work = () => {
                 </div>
                 <div className="w-full pb-4 flex sm:flex-row flex-col flex-wrap sm:justify-between items-center">
                     <div className="md:w-[280px] sm:w-[230px] w-[260px] mb-4 md:p-3 sm:p-[3px] p-2 flex justify-center items-center border-r-2 border-gray-500 shadow-md">
-                        <di className="md:text-3xl sm:text-2xl text-4xl md:mr-4 mr-2">
+                        <div className="md:text-3xl sm:text-2xl text-4xl md:mr-4 mr-2">
                             <BsUmbrella />
-                        </di>
-                        <di>
+                        </div>
+                        <div>
                             <h3 className="md:pb-2 sm:pb-[4px] pb-[3px] md:text-xl text-base font-bold capitalize">planning</h3>
                             <p className="pb-2 text-xs md:leading-relaxed">
                                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, debitis!
                             </p>
                             <div className="pb-2 text-xs font-bold uppercase">many more</div>
-                        </di>
+                        </div>
                     </div>
                     <div className="md:w-[280px] sm:w-[230px] w-[260px] mb-4 md:p-3 sm:p-[3px] p-2 flex justify-center items-center border-r-2 border-gray-500 shadow-md">
-                        <di className="md:text-3xl sm:text-2xl text-4xl md:mr-4 mr-2">
+                        <div className="md:text-3xl sm:text-2xl text-4xl md:mr-4 mr-2">
                             <BsUmbrella />
-                        </di>
-                        <di>
+                        </div>
+                        <div>
                             <h3 className="md:pb-2 sm:pb-[4px] pb-[3px] md:text-xl text-base font-bold capitalize">planning</h3>
                             <p className="pb-2 text-xs md:leading-relaxed">
                                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, debitis!
                             </p>
                             <div className="pb-2 text-xs font-bold uppercase">many more</div>
-                        </di>
+                        </div>
                     </div>
                     <div className="md:w-[280px] sm:w-[230px] w-[260px] mb-4 md:p-3 sm:p-[3px] p-2 flex justify-center items-center border-r-2 border-gray-500 shadow-md">
-                        <di className="md:text-3xl sm:text-2xl text-4xl md:mr-4 mr-2">
+                        <div className="md:text-3xl sm:text-2xl text-4xl md:mr-4 mr-2">
                             <BsUmbrella />
-                        </di>
-                        <di>
+                        </div>
+                        <div>
                             <h3 className="md:pb-2 sm:pb-[4px] pb-[3px] md:text-xl text-base font-bold capitalize">planning</h3>
                             <p className="pb-2 text-xs md:leading-relaxed">
                                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, debitis!
                             </p>
                             <div className="pb-2 text-xs font-bold uppercase">many more</div>
-                        </di>
+                        </div>
                     </div>
                     <div className="md:w-[280px] sm:w-[230px] w-[260px] mb-4 md:p-3 sm:p-[3px] p-2 flex justify-center items-center border-r-2 border-gray-500 shadow-md">
-                        <di className="md:text-3xl sm:text-2xl text-4xl md:mr-4 mr-2">
+                        <div className="md:text-3xl sm:text-2xl text-4xl md:mr-4 mr-2">
                             <BsUmbrella />
-                        </di>
-                        <di>
+                        </div>
+                        <div>
                             <h3 className="md:pb-2 sm:pb-[4px] pb-[3px] md:text-xl text-base font-bold capitalize">planning</h3>
                             <p className="pb-2 text-xs md:leading-relaxed">
                                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, debitis!
                             </p>
                             <div className="pb-2 text-xs font-bold uppercase">many more</div>
-                        </di>
+                        </div>
                     </div>
                     <div className="md:w-[280px] sm:w-[230px] w-[260px] mb-4 md:p-3 sm:p-[3px] p-2 flex justify-center items-center border-r-2 border-gray-500 shadow-md">
-                        <di className="md:text-3xl sm:text-2xl text-4xl md:mr-4 mr-2">
+                        <div className="md:text-3xl sm:text-2xl text-4xl md:mr-4 mr-2">
                             <BsUmbrella />
-                        </di>
-                        <di>
+                        </div>
+                        <div>
                             <h3 className="md:pb-2 sm:pb-[4px] pb-[3px] md:text-xl text-base font-bold capitalize">planning</h3>
                             <p className="pb-2 text-xs md:leading-relaxed">
                                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, debitis!
                             </p>
                             <div className="pb-2 text-xs font-bold uppercase">many more</div>
-                        </di>
+                        </div>
                     </div>
                     <div className="md:w-[280px] sm:w-[230px] w-[260px] mb-4 md:p-3 sm:p-[3px] p-2 flex justify-center items-center border-r-2 border-gray-500 shadow-md">
-                        <di className="md:text-3xl sm:text-2xl text-4xl md:mr-4 mr-2">
+                        <div className="md:text-3xl sm:text-2xl text-4xl md:mr-4 mr-2">
                             <BsUmbrella />
-                        </di>
-                        <di>
+                        </div>
+                        <div>
                             <h3 className="md:pb-2 sm:pb-[4px] pb-[3px] md:text-xl text-base font-bold capitalize">planning</h3>
                             <p className="pb-2 text-xs md:leading-relaxed">
                                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, debitis!
                             </p>
                             <div className="pb-2 text-xs font-bold uppercase">many more</div>
-                        </di>
+                        </div>
                     </div>
 
                 </div>
