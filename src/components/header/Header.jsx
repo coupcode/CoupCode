@@ -9,7 +9,7 @@ const Header = ({setNav}) => {
     const {handleNav} = NavState();
 
   return (
-    <div className="w-full min-h-[50px] fixed top-0 bottom-0 left-0 right-0 z-10 py-2 bg-whiteClr shadow-lg">
+    <div className="w-full min-h-[30px] fixed top-0 left-0  z-10 py-2 bg-whiteClr shadow-lg">
         <div className="2xl:w-[65%] xl:w-[70%] w-[90%] mx-auto flex justify-between items-center">
             <div className="flex justify-start items-center">
                 <div className="md:w-[50px] md:h-[50px] sm:w-[30px] sm:h-[30px] w-[20px] h-[20px]">
@@ -18,7 +18,7 @@ const Header = ({setNav}) => {
                 <div className="text-blackClr md:text-xl text-base font-bold uppercase">CoupCode</div>
             </div>
             <div className="flex justify-center items-center mr-[5px]">
-                <div className="lg:flex justify-center items-center mr-2 text-sm uppercase font-semibold hidden">
+                <div className="lg:flex justify-center gap-4 items-center mr-4 text-base uppercase font-semibold hidden">
                     <a href="#"><small>Home</small></a>
                     <a href="#"><small>About</small></a>
                     <a href="#"><small>Services</small></a>
