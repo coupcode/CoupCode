@@ -3,10 +3,8 @@ import Logo from '../../assets/img/logo.jpg'
 import { IoIosNotificationsOutline } from 'react-icons/io'
 import { BiSearch } from 'react-icons/bi'
 import { FaBars } from 'react-icons/fa'
-import { NavState } from '../../context/NavProvider'
 
 const Header = ({setNav}) => {
-    const {handleNav} = NavState();
 
   return (
     <div className="w-full min-h-[30px] fixed top-0 left-0  z-10 py-2 bg-whiteClr shadow-lg">
@@ -34,7 +32,7 @@ const Header = ({setNav}) => {
                 <div className="md:text-lg text-base mr-3">
                     <IoIosNotificationsOutline />
                 </div>
-                <div onClick={()=>setNav()} className="xl:hidden md:text-lg text-sm block mr-3">
+                <div onClick={()=>setNav()} className="lg:hidden md:text-lg text-sm block mr-3">
                     <FaBars />
                 </div>
             </div>

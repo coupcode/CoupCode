@@ -39,9 +39,9 @@ const Services = () => {
                         </div>
                     </div>
                 </div>
-                <div className="flex flex-wrap lg:justify-between md:justify-center justify-center items-center">
-                    <div className="xl:w-[320px] lg:w-[270px] md:w-[220px] sm:w-[230px] xs:w-[250px] w-[220px] sm:mb-4 mr-2 xl:mr-5 lg:mr-4 md:mr-3 mb-4">
-                        <div className="xl:w-[320px] xl:h-[220px] lg:w-[270px] lg:h-[200px] md:w-[220px] md:h-[150px] sm:w-[230px] sm:h-[150px] xs:w-[250px] xs:h-[170px] w-[220px] h-[140px] sm:pb-4 pb-2">
+                <div className="flex flex-wrap gap-2 justify-center items-center">
+                    <div className="2xl:w-[320px] xl:w-[280px] lg:w-[230px] md:w-[220px] sm:w-[230px] xs:w-[250px] w-[220px] sm:mb-4 mr-2 xl:mr-2 lg:mr-4 md:mr-3 mb-4">
+                        <div className="2xl:w-[320px] xl:h-[220px] xl:w-[280px] lg:w-[230px] lg:h-[200px] md:w-[220px] md:h-[150px] sm:w-[230px] sm:h-[150px] xs:w-[250px] xs:h-[170px] w-[220px] h-[140px] sm:pb-4 pb-2">
                             <img src={img1} alt="About Image" className="w-full h-full object-cover" />
                         </div>
                         <div className="lg:pb-5 sm:pb-3 pb-2 flex justify-between items-center">
@@ -58,11 +58,11 @@ const Services = () => {
                         </div>
                         <hr />
                     </div>
-                    <div className="xl:w-[320px] lg:w-[270px] md:w-[220px] sm:w-[230px] sm:mb-4 xs:w-[250px] w-[220px] mr-2 xl:mr-5 lg:mr-4 md:mr-3 mb-4">
-                        <div className="xl:w-[320px] xl:h-[220px] lg:w-[270px] lg:h-[200px] md:w-[220px] md:h-[150px] sm:w-[230px] sm:h-[150px] xs:w-[250px] xs:h-[170px] w-[220px] h-[140px] pb-4">
+                    <div className="2xl:w-[320px] xl:w-[280px] lg:w-[230px] md:w-[220px] sm:w-[230px] sm:mb-4 xs:w-[250px] w-[220px] mr-2 xl:mr-2 lg:mr-4 md:mr-3 mb-4">
+                        <div className="2xl:w-[320px] xl:h-[220px] xl:w-[280px] lg:w-[230px] lg:h-[200px] md:w-[220px] md:h-[150px] sm:w-[230px] sm:h-[150px] xs:w-[250px] xs:h-[170px] w-[220px] h-[140px] pb-4">
                             <img src={img2} alt="About Image" className="w-full h-full object-cover" />
                         </div>
-                        <div className="lg:pb-5 sm:pb-3 pb-2 flex justify-between items-center">
+                        <div className="lg:pb-5 sm:pb-3 pb-2 flex justify-center items-center">
                             <div className="capitalize">
                                 <h3 className="lg:text-base sm:text-sm xs:text-base text-sm sm:pb-2 pb-[2px] font-semibold">frontend dev</h3>
                                 <small className='lg:text-sm sm:text-xs xs:text-sm text-xs'>summary</small>
@@ -76,8 +76,8 @@ const Services = () => {
                         </div>
                         <hr />
                     </div>
-                    <div className="xl:w-[320px] lg:w-[270px] md:w-[220px] sm:w-[230px] xs:w-[250px] w-[220px]">
-                        <div className="xl:w-[320px] xl:h-[220px] lg:w-[270px] lg:h-[200px] md:w-[220px] md:h-[150px] sm:w-[230px] sm:h-[150px] xs:w-[250px] xs:h-[170px] w-[220px] h-[140px] pb-4">
+                    <div className="2xl:w-[320px] xl:w-[280px] lg:w-[230px] md:w-[220px] sm:w-[230px] sm:mb-4 xs:w-[250px] w-[220px] mr-2 xl:mr-2 lg:mr-4 md:mr-3 mb-4">
+                        <div className="2xl:w-[320px] xl:w-[280px] xl:h-[220px] lg:w-[230px] lg:h-[200px] md:w-[220px] md:h-[150px] sm:w-[230px] sm:h-[150px] xs:w-[250px] xs:h-[170px] w-[220px] h-[140px] pb-4">
                             <img src={img3} alt="About Image" className="w-full h-full object-cover" />
                         </div>
                         <div className="lg:pb-5 sm:pb-3 pb-2 flex justify-between items-center">

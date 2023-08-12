@@ -19,7 +19,7 @@ const Footer = () => {
                                 <div className="md:w-[30px] md:h-[30px] sm:w-[25px] sm:h-[25px] w-[30px] h-30px mr-2">
                                     <img src={Logo} alt="CoupCode" className="w-full h-full object-cover" />
                                 </div>
-                                <h2 className="lg:text-xl md:text-base sm:text-sm text-lg font-bold text-whiteClr uppercase">CoupCode</h2>
+                                <h2 className="lg:text-xl md:text-base sm:text-sm text-base font-bold text-whiteClr uppercase">CoupCode</h2>
                             </div>
                             <p className="pb-2 md:text-xs sm:text-[10px] text-[10px] font-medium leading-relaxed">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae rem itaque magni cupiditate maiores sed, excepturi quas quaerat veniam distinctio!
@@ -29,10 +29,10 @@ const Footer = () => {
                                     <MdCall />
                                 </div>
                                 <div >
-                                    <div className="lg:text-xl text-lg font-semibold">
+                                    <div className="lg:text-xl sm:text-lg text-base font-semibold">
                                         <a href="#">5532-232-8946</a>
                                     </div>
-                                    <div className="lg:text-sm text-xs">
+                                    <div className="lg:text-sm sm:text-xs text-[10px]">
                                         <a href="#">coupcode@gmail.com</a>
                                     </div>
                                 </div>
@@ -41,7 +41,7 @@ const Footer = () => {
                         </div>
                         <div className="flex-1 text-whiteClr">
                             <div className="lg:pb-8 md:pb-4">
-                                <h2 className="sm:pb-2 pb-[3px] lg:text-lg md:text-base sm:text-sm text-base font-semibold uppercase">service provided</h2>
+                                <h2 className="sm:pb-2 pb-[3px] lg:text-lg md:text-base sm:text-sm text-sm font-semibold uppercase">service provided</h2>
                                 <div className="md:w-[30px] md:h-[2px] w-[25px] h-[1px] mb-4 bg-whiteClr"></div>
                             </div>
                             <div className="flex xl:text-sm lg:text-xs text-[10px] justify-start capitalize">
@@ -65,7 +65,7 @@ const Footer = () => {
                     </div>
                     <div className="flex-1">
                         <div className="lg:pb-8 sm:pb-4">
-                            <h2 className="sm:pb-2 pb-[3px] text-whiteClr lg:text-lg md:text-base sm:text-sm text-base font-semibold uppercase">get the quote</h2>
+                            <h2 className="sm:pb-2 pb-[3px] text-whiteClr lg:text-lg md:text-base sm:text-sm text-sm font-semibold uppercase">get the quote</h2>
                             <div className="md:w-[30px] md:h-[2px] w-[25px] h-[1px] mb-4 bg-whiteClr"></div>
                         </div>
                         <div className="relative">
