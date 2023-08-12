@@ -12,7 +12,7 @@ const Testimonial = () => {
                         <h2 className="pb-2 lg:text-2xl sm:text-xl text-lg  font-bold capitalize">news updates</h2>
                         <div className="w-[25px] h-[2px] mb-2 bg-brownClr"></div>
                     </div>
-                    <div className="flex sm:flex-row flex-col sm:justify-start items-center">
+                    <div className="flex sm:flex-row flex-col sm:justify-start sm:items-start items-center">
                         <div className="xl:w-[250px] lg:w-[220px] xs:w-[250px] w-[220px] mb-5 mr-2 xl:mr-4 lg:mr-3 sm:mr-4">
                             <div className="xl:w-[250px] xl:h-[170px] lg:w-[220px] lg:h-[150px] xs:w-[250px] xs:h-[170px] w-[220px] h-[140px] mb-2">
                                 <img src={img1} alt="Testimonial" className="w-full h-full object-cover" />

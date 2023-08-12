@@ -3,10 +3,8 @@ import Logo from '../../assets/img/logo.jpg'
 import { IoIosNotificationsOutline } from 'react-icons/io'
 import { BiSearch } from 'react-icons/bi'
 import { FaBars } from 'react-icons/fa'
-import { NavState } from '../../context/NavProvider'
 
 const Header = ({setNav}) => {
-    const {handleNav} = NavState();
 
   return (
     <div className="w-full min-h-[30px] fixed top-0 left-0  z-10 py-2 bg-whiteClr shadow-lg">
@@ -15,7 +13,7 @@ const Header = ({setNav}) => {
                 <div className="md:w-[50px] md:h-[50px] sm:w-[30px] sm:h-[30px] w-[20px] h-[20px]">
                     <img src={Logo} alt="Logo" className="w-full h-full object-cover" />
                 </div>
-                <div className="text-blackClr md:text-xl text-base font-bold uppercase">CoupCode</div>
+                <div className="text-blackClr md:text-xl text-sm font-bold uppercase">CoupCode</div>
             </div>
             <div className="flex justify-center items-center mr-[5px]">
                 <div className="lg:flex justify-center gap-4 items-center mr-4 text-base uppercase font-semibold hidden">
@@ -28,13 +26,13 @@ const Header = ({setNav}) => {
                     <a href="#"><small>Contact</small></a>
                 </div>
                 
-                <div className="md:text-xl text-lg mr-3">
+                <div className="md:text-lg text-base mr-3">
                     <BiSearch />
                 </div>
-                <div className="md:text-xl text-gl mr-3">
+                <div className="md:text-lg text-base mr-3">
                     <IoIosNotificationsOutline />
                 </div>
-                <div onClick={()=>setNav()} className="xl:hidden text-lg block mr-3">
+                <div onClick={()=>setNav()} className="lg:hidden md:text-lg text-sm block mr-3">
                     <FaBars />
                 </div>
             </div>

@@ -14,9 +14,9 @@ const About = () => {
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, facilis impedit.
                 </p>
             </div>
-            <div className="w-full pb-4 flex flex-wrap lg:justify-between md:justify-center sm:justify-start justify-center items-center">
-              <div className="mb-4 xl:w-[320px] lg:w-[270px] md:w-[220px] sm:w-[230px] xs:w-[250px] w-[220px] xl:mr-[2px] lg:mr-4 md:mr-3 sm:mr-3">
-                <div className="xl:w-[320px] xl:h-[220px] lg:w-[270px] lg:h-[190px] md:w-[220px] md:h-[150px] sm:w-[230px] sm:h-[160px] xs:w-[250px] xs:h-[170px] w-[220px] h-[140px]  md:mb-4 mb-2">
+            <div className="w-full pb-4 flex flex-wrap gap-3 lg:justify-center md:justify-center sm:justify-start justify-center items-center">
+              <div className="mb-4 2xl:w-[320px] xl:w-[280px] lg:w-[230px] md:w-[220px] sm:w-[230px] xs:w-[250px] w-[220px] mr-2">
+                <div className="2xl:w-[320px] xl:w-[280px] lg:w-[230px] xl:h-[210px] lg:h-[190px] md:w-[220px] md:h-[150px] sm:w-[230px] sm:h-[160px] xs:w-[250px] xs:h-[170px] w-[220px] h-[140px]  md:mb-4 mb-2">
                   <img src={img1} alt="About Image" className="w-full h-full object-cover" />
                 </div>
                 <h2 className="md:pb-2 sm:pb-[5px] lg:text-lg sm:text-sm xs:text-base text-sm font-bold capitalize">short & good plan</h2>
@@ -26,8 +26,8 @@ const About = () => {
                 </p>
                 <small className="lg:text-xs sm:text-[12px] xs:text-sm text-xs font-bold uppercase text-brownClr">read more</small>
               </div>
-              <div className="mb-4 xl:w-[320px] lg:w-[270px] sm:w-[230px] xs:w-[250px] w-[220px] xl:mr-[2px] md:w-[220px] lg:mr-4 md:mr-3">
-                <div className="xl:w-[320px] xl:h-[220px] lg:w-[270px] lg:h-[190px] md:w-[220px] md:h-[150px] sm:w-[230px] sm:h-[160px] xs:w-[250px] xs:h-[170px] w-[220px] h-[140px] md:mb-4 mb-2">
+              <div className="mb-4 2xl:w-[320px] xl:w-[280px] lg:w-[230px] sm:w-[230px] xs:w-[250px] w-[220px] md:w-[220px] mr-2">
+                <div className="2xl:w-[320px] xl:w-[280px] xl:h-[210px] lg:w-[230px] lg:h-[190px] md:w-[220px] md:h-[150px] sm:w-[230px] sm:h-[160px] xs:w-[250px] xs:h-[170px] w-[220px] h-[140px] md:mb-4 mb-2">
                   <img src={img2} alt="About Image" className="w-full h-full object-cover" />
                 </div>
                 <h2 className="md:pb-2 sm:pb-[5px] lg:text-lg sm:text-sm xs:text-base text-sm font-bold capitalize">short & good plan</h2>
@@ -37,9 +37,9 @@ const About = () => {
                 </p>
                 <small className="lg:text-xs sm:text-[12px] xs:text-sm text-xs font-bold uppercase text-brownClr">read more</small>
               </div>
-              <div className="xl:w-[320px] lg:w-[270px] md:w-[220px] sm:w-[230px] xs:w-[250px] w-[220px]">
-                <div className="xl:w-[320px] xl:h-[220px] lg:w-[270px] lg:h-[190px] md:w-[220px] md:h-[150px] sm:w-[230px] sm:h-[160px] xs:w-[250px] xs:h-[170px] w-[220px] h-[140px] md:mb-4 mb-2">
-                  <img src={img3} alt="About Image" className="w-full h-full object-cover" />
+              <div className="mb-4 2xl:w-[320px] xl:w-[280px] lg:w-[230px] sm:w-[230px] xs:w-[250px] w-[220px] md:w-[220px] mr-2">
+                <div className="2xl:w-[320px] xl:w-[280px] xl:h-[210px] lg:w-[230px] lg:h-[190px] md:w-[220px] md:h-[150px] sm:w-[230px] sm:h-[160px] xs:w-[250px] xs:h-[170px] w-[220px] h-[140px] md:mb-4 mb-2">
+                  <img src={img2} alt="About Image" className="w-full h-full object-cover" />
                 </div>
                 <h2 className="md:pb-2 sm:pb-[5px] lg:text-lg sm:text-sm xs:text-base text-sm font-bold capitalize">short & good plan</h2>
                 <p className="pb-2 lg:text-sm sm:text-xs text-xs leading-relaxed">
