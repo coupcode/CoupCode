@@ -1,5 +1,6 @@
 import React from 'react'
-import Logo from '../../assets/img/logo.jpg'
+// import Logo from '../../assets/img/logo.jpg'
+import Logo from '../items/img/CoupCode2.png'
 import Button from '../Button'
 import { MdCall } from 'react-icons/md'
 import { BiSolidRightArrowAlt } from 'react-icons/bi'
@@ -14,7 +15,7 @@ const Footer = () => {
             <div className="w-full bg-gray-800 lg:py-14 pt-8 pb-2">
                 <div className="2xl:w-[65%] xl:w-[70%] w-[75%] mx-auto flex lg:flex-row flex-col items-start ">
                     <div className="flex flex-2 sm:flex-row justify-start flex-col mb-4">
-                        <div className="sm:w-full w-[70%] mr-4 sm:mb-2 sm:mb-4 mb-8 flex-1 flex flex-col text-whiteClr">
+                        <div className="sm:w-full w-[70%] mr-4 sm:mb-4 mb-8 flex-1 flex flex-col text-whiteClr">
                             <div className="flex items-center lg:pb-12 sm:pb-6 pb-3">
                                 <div className="md:w-[30px] md:h-[30px] sm:w-[25px] sm:h-[25px] w-[30px] h-30px mr-2">
                                     <img src={Logo} alt="CoupCode" className="w-full h-full object-cover" />

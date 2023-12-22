@@ -1,5 +1,6 @@
 import React, { useRef } from 'react'
-import Logo from '../../assets/img/logo.jpg'
+// import Logo from '../../assets/img/logo.jpg'
+import Logo from '../items/img/CoupCode2.png'
 import { MdClose, MdRoomPreferences } from 'react-icons/md'
 import { AiTwotoneHome, AiTwotoneCustomerService } from 'react-icons/ai'
 import { HiInformationCircle } from 'react-icons/hi'
